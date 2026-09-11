@@ -10,8 +10,8 @@ if page == "Home":
     st.markdown("<p style='text-align: center;'>Data Science & Machine Learning Enthusiast</p>", unsafe_allow_html=True)
     st.image("amar.jpeg", width=200)  # optional profile photo
     st.write("Welcome to my portfolio! Explore my projects, research, and certifications.")
-    with open("Amar_updated_resume.pdf", "rb") as file:
-        st.download_button("📄 Download Resume", file, "Amar_updated_resume.pdf")
+    with open("amar_updated_compressed_resume.pdf", "rb") as file:
+        st.download_button("📄 Download Resume", file, "amar_updated_compressed_resume.pdf")
 
 # Projects Page
 elif page == "Projects":
@@ -43,7 +43,7 @@ elif page == "Research":
     st.write("Citation: Chaurasiya, A. N., & Kumar, S. (2026). Predictive Forecasting of Care Load and Placement Demand: A Data-Driven Approach. Zenodo. https://doi.org/10.5281/zenodo.21902202")
 
     st.write("Authored paper on Predictive Modeling and Risk Scoring for Customer Churn in Retail Bankin")
-    st.write("Focus: build and evaluate machine learning models for churn predicƟon, assess feature importance, and providea framework for risk scoring.")
+    st.write("Focus: build and evaluate machine learning models for churn predicƟon, assess feature importance, and provide a framework for risk scoring.")
     st.write("Citation: Chaurasiya, A. N., & Kumar, S. (2026). Predictive Modeling and Risk Scoring for Customer Churn in Retail Banking. Zenodo. https://zenodo.org/records/21871533")
 # Certifications Page
 elif page == "Certifications":
